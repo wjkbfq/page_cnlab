@@ -184,7 +184,7 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 cursor:pointer;
 }
 
-.lulab-logo p,button[disabled],html input[disabled] {
+.c-logo p,button[disabled],html input[disabled] {
 cursor:default;
 }
 
@@ -285,7 +285,7 @@ background-size:1920px 1920px;
 }
 
 
-header .lulab-logo {
+header .c-logo {
 vertical-align:middle;
 display:inline-block;
 zoom:2;
@@ -295,7 +295,7 @@ line-height:20px;
 }
 
 
-.lulab-logo p {
+.c-logo p {
 letter-spacing:3px;
 color:#007dbc;
 font-size:15px;
@@ -304,7 +304,7 @@ padding:10px;
 
 a{text-decoration: none;color: white}
 
-/*.lulab-logo h1 a {
+/*.c-logo h1 a {
 display:block;
 overflow:hidden;
 width:240px;
@@ -1188,7 +1188,7 @@ body {
 padding:0;
 }
 
-.lulab-logo h1 a {
+.c-logo h1 a {
 width:200px;
 height:46px;
 background-size:200px 46px;
@@ -1200,7 +1200,7 @@ line-height:inherit;
 padding:0;
 }
 
-.lulab-logo p {
+.c-logo p {
 font-size:18px;
 }
 
@@ -1296,13 +1296,13 @@ body {
 padding:0;
 }
 
-.lulab-logo h1 a {
+.c-logo h1 a {
 width:160px;
 height:37px;
 background-size:160px 37px;
 }
 
-.lulab-logo p {
+.c-logo p {
 font-size:16px;
 }
 
