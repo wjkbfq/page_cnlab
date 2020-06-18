@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CNLab @ University of Aizu</title>
+    <style>
+    @media screen and (orientation: portrait) {
+        .container{
+            grid-template-rows: 0px repeat(3, 300px) 0px;
+            grid-template-columns: auto;
+        }
+    }
+    @media screen and (orientation: landscape) {
+        .container{
+            grid-template-rows: auto;
+            grid-template-columns: 15% repeat(3, 25%) 15%;
+        }
+    }
+    * {
+        margin:0;
+        padding:0;
+    }
+    a:link {text-decoration: none;color: blue}
+    a:active {text-decoration: blink}
+    a:hover {text-decoration: none;color: blue}
+    a:visited {text-decoration: none;color: green}
+
+    html{height:100%;}
+    body{min-height:100%;margin:0;padding:0;position:relative;}
+    header {
+        background:url(https://c.kunn.cc/u/i/background-20200618.png);
+        line-height: 250px !important;
+        height: 250px !important;
+    }
+    main{
+        padding:150px;
+    }
+    footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+    div {
+        text-align: center;
+    }
+    .container{
+        display: grid;
+        grid-gap: 0px 0px;
+    }
+    .container .item{
+        height:200px;
+    }
+    #c-logo {
+        vertical-align:middle;
+        display:inline-block;
+        zoom:2;
+        width:100%;
+        text-align:center;
+        line-height:20px;
+    }
+    #c-logo h1 a {
+        width:200px;
+        height:46px;
+        background-size:200px 46px;
+    }
+    #c-logo p {
+        letter-spacing:3px;
+        color:#007dbc;
+        font-size:18px;
+        padding:10px;
+    }
+
+</style>
+</head>
+<body style="overflow:-scroll;overflow-x:hidden">
+    <header>
+        <div id="c-logo">
+            <h1><a href="index.html" style="color: white; line-height:100%">Computer Network Lab</a></h1>
+            <br>
+            <p>University of Aizu</p>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="item"></div>
+            <div class="item">
+                <a href="https://www.u-aizu.ac.jp/research/faculty/detail?cd=90039&lng=en" style="color:#000000;">
+                    <img class="ri-img" src="https://www.u-aizu.ac.jp/upload/user/90039.jpg" alt="TEI Shigaku" />
+                    <h3 class="ri-title">
+                        TEI Shigaku
+                    </h3>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.u-aizu.ac.jp/research/faculty/detail?cd=90040&lng=en"  style="color:#000000;">
+                    <img class="ri-img" src="https://www.u-aizu.ac.jp/upload/user/90040.jpg" alt="KUROKAWA Hirokuni" />
+                    <h3 class="ri-title">
+                        KUROKAWA Hirokuni
+                    </h3>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.u-aizu.ac.jp/research/faculty/detail?cd=90041&lng=en" style="color:#000000;">
+                    <img class="ri-img" src="https://www.u-aizu.ac.jp/upload/user/90041.jpg" alt="JING Lei" />
+                    <h3 class="ri-title">
+                        JING Lei
+                    </h3>
+                </a>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div class="item"></div>
+    </main>
+    <footer>
+        <div>
+            <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=2)" width="100%" color=#003f5f SIZE=7>
+            <br>
+            <br>
+            <p>
+                &copy;2020 <a href="index.html">CNLab</a>. All rights reserved.
+            </p>
+            <p class="sub-footer">
+                Version 1.4 build 20200618 (Designed by 
+                <a href="https://b.kunn.cc/" target="_blank">Jiangkun Wang</a>)
+            </p>
+            <br>
+            <br>
+        </div>
+    </footer>
+</body>
+</html>
